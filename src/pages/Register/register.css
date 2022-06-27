@@ -1,0 +1,17 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.MuiPaper-root{
+    width: 80vw;
+    padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .MuiPaper-root{
+        width: 500px;
+        padding: 80px;
+    }
+}
